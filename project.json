@@ -1,41 +1,50 @@
 {
-    "name": "Test Project",
-    "timeout": 300,
-    "vcpus": 8,
-    "memory_gib": 32.0,
-    "problem_groups": [
+  "name": "Test Project",
+  "timeout": 300,
+  "vcpus": 8,
+  "memory_gib": 32.0,
+  "problem_groups": [
+    {
+      "problem_group": 1,
+      "problems": [
         {
-            "problem_group": 1,
-            "problems": [
-                {"problem": 5, "instances": [23]},
-                {"problem": 7, "instances": [33]}
-            ],
-            "extras": {
-                "repetitions": 1,
-                "solvers": [
-                    {
-                        "id": 6,
-                        "vcpus": 1,
-                        "memory_gib": 4.0
-                    },
-                    {
-                        "id": 1,
-                        "vcpus": 1,
-                        "memory_gib": 4.0
-                    },
-                    {
-                        "id": 3,
-                        "vcpus": 1,
-                        "memory_gib": 4.0
-                    },
-                                        {
-                        "id": 10,
-                        "vcpus": 1,
-                        "memory_gib": 4.0
-                    }
-                ]
-            }
+          "problem": 3,
+          "instances": [
+            14
+          ]
+        },
+        {
+          "problem": 4,
+          "instances": [
+            18
+          ]
         }
-    ]
+      ],
+      "extras": {
+        "repetitions": 1,
+        "solvers": [
+          {
+            "id": 6,
+            "vcpus": 1,
+            "memory_gib": 4.0
+          },
+          {
+            "id": 1,
+            "vcpus": 1,
+            "memory_gib": 4.0
+          },
+          {
+            "id": 3,
+            "vcpus": 1,
+            "memory_gib": 4.0
+          },
+          {
+            "id": 10,
+            "vcpus": 1,
+            "memory_gib": 4.0
+          }
+        ]
+      }
+    }
+  ]
 }
-
